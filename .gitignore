@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Local environments and tooling
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Generated data and outputs
+data/
+results/
+outputs/
+*.npz
+*.parquet
+*.log
+
+# Local notebooks/runtime files
+.jupyter/
+
+# Results from training runs
+models/ 
