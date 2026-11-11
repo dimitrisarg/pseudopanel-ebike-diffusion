@@ -71,12 +71,6 @@ python src\robustness.py
 python src\robustness_no_embeddings.py
 ```
 
-Start the notebook analyses with:
-
-```powershell
-jupyter lab
-```
-
 The notebooks cover adoption, reallocation, LMDI contributions, temporal
 validation, and trip-length validation.
 
