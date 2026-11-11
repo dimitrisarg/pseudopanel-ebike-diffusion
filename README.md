@@ -2,9 +2,7 @@
 
 This repository contains the research code for generating and analysing
 synthetic travel pseudo-panels for e-bike adoption research. The generative
-model is a conditional variational autoencoder (CVAE) that models trip
-sequences, trip lengths, purposes, and contextual categorical and numeric
-variables. The repository also contains model training, generation, robustness
+model is a conditional variational autoencoder (CVAE) that models trips, trip lengths, purposes for a day. The repository also contains model training, generation, robustness
 experiments, validation notebooks, and an LMDI decomposition implementation.
 
 This is a **code-only paper-support release**. Raw survey data, geographic
