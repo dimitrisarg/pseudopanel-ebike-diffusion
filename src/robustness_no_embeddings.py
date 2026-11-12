@@ -56,10 +56,6 @@ def main():
     df.dropna(inplace=True)
     df.reset_index(drop=True, inplace=True)
 
-    # Note: prepare_cvae_data_emb still returns integer-coded x_cat / x_purpose.
-    # That's fine — with use_cond_embedding=False / use_purpose_embedding=False
-    # the model one-hot encodes these internally (see embed_conditionals /
-    # process_purpose in model.py), so no changes are needed here.
     xtp, xl, xpurp, x_num, x_cat, weights, _, _, scaler_len, scaler_cond, purpose_mapping, cat_cond_mapping = prepare_cvae_data_emb(
         df,
         trip_col=[f'trips_mode{i}' for i in range(1, 8)],
